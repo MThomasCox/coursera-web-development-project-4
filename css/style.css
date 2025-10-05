@@ -174,3 +174,27 @@
   border-left: 3px solid #7da7a8;
   padding-left: 0.5rem;
 }
+
+/* Button style */
+#toTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 0.75rem 1rem;
+  background-color: #051F20;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: none;
+  z-index: 999;
+}
+
+#toTopBtn:hover {
+  background-color: #2e6a6b;
+  transform: translateY(-3px);
+}
+
