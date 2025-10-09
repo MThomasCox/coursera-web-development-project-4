@@ -1,171 +1,117 @@
-
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael T. Cox | Resume</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
 <body>
 
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
-        </div>
-      </div>
+  <div class="holy-grail-grid">
 
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-            <p>Once you've exhausted the fun in this document, you should check out:</p>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <p><a href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="https://github.com/foundation/foundation-sites/discussions">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="https://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-              </div>
-              <div class="large-4 medium-4 medium-pull-2 cell">
-                <p><a href="https://twitter.com/FoundationCSS">@FoundationCSS</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-8 medium-8 cell">
-          <h5>Here&rsquo;s your basic grid:</h5>
-          <!-- Grid Example -->
-
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-          </div>
-
-          <hr />
-
-          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Input Label</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Select Box</label>
-                <select>
-                  <option value="husker">Husker</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-6 medium-6 cell">
-                <label>Choose Your Favorite</label>
-                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>Check these out</label>
-                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Textarea Label</label>
-                <textarea placeholder="small-12.cell"></textarea>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div class="large-4 medium-4 cell">
-          <h5>Try one of these buttons:</h5>
-          <p><a href="#" class="button">Simple Button</a><br/>
-            <a href="#" class="success button">Success Btn</a><br/>
-            <a href="#" class="alert button">Alert Btn</a><br/>
-            <a href="#" class="secondary button">Secondary Btn</a></p>
-          <div class="callout">
-            <h5>So many components, girl!</h5>
-            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-            <a href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
-          </div>
-        </div>
-      </div>
+    <!-- Header -->
+    <div class="holy-grail-header">
+      <h1>Michael T. Cox</h1>
+      <h2>Finance &#124; Tax Accounting &#124; Underwriting &#124; Technology</h2>
     </div>
 
+    <!-- Left Sidebar -->
+    <div class="holy-grail-left">
+      <h3>Navigation</h3>
+      <ul>
+        <li><a href="resume.html">Michael&apos;s Resume</a></li>
+      </ul>
+    </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    <!-- Main Content -->
+    <div class="holy-grail-middle">
+
+      <!-- Professional Experience -->
+      <section id="experience">
+        <h2>Professional Experience</h2>
+
+        <article>
+          <h3>Prudential Financial</h3>
+          <p><em>Manager Strategic Initiatives</em></p>
+          <ul>
+            <li>Led BAU development for underwriting rater, improving system stability and efficiency.</li>
+            <li>Partnered with stakeholders to deliver impactful system changes, enhancing workflows.</li>
+            <li>Implemented strategic projects consolidating processes and reducing reliance on external tools.</li>
+            <li>Oversaw a team of three developers, managing sprint planning and backlog prioritization.</li>
+            <li>Delivered automation that streamlined case processing and improved user experience.</li>
+          </ul>
+          <p><em>Lead Underwriting Specialist</em></p>
+          <ul>
+            <li>Tested updates and enhancements to the rater system, leading to increased efficiency.</li>
+            <li>Created Underwriting Judgement guidance and scorecards used department-wide.</li>
+            <li>Mentored interns and junior employees on underwriting processes and systems.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Cigna</h3>
+          <p><em>Senior Underwriting Advisor</em></p>
+          <ul>
+            <li>Graduate of Underwriting Leadership Training & Risk Assessment (ULTRA) Program.</li>
+            <li>Assessed risk and analyzed case profitability for potential clients (250–5,000 lives).</li>
+            <li>Contributed to company sales goal, generating over $16 million in personal sales.</li>
+            <li>Developed Canadian Sales initiative, generating $2.5 million in excess premium.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>UBS Wealth Management Americas</h3>
+          <p><em>Private Wealth Management Assistant</em></p>
+          <ul>
+            <li>Constructed portfolio models and simulations for VP during sales pitches.</li>
+            <li>Evaluated fixed income positions and produced bond analytic reports.</li>
+            <li>Created quarterly client portfolio reviews comparing performance to benchmarks.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>Goldman Sachs, Private Wealth Management</h3>
+          <p><em>Financial Analyst Intern</em></p>
+          <ul>
+            <li>Identified private equity MNA and IPO transactions to strategize with advisors.</li>
+            <li>Reviewed non-profit 990s to identify prospect opportunities for the team.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Education -->
+      <section id="education">
+        <h2>Education</h2>
+        <p>Drexel University - Bachelor of Science in Business Administration, Concentrations in Finance and Accounting</p>
+      </section>
+
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="holy-grail-right">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="holy-grail-footer">
+      <p>Michael T. Cox | Charlotte, NC | 267-367-1591 | MThomasC@gmail.com</p>
+    </div>
+
+  </div>
+  <div class="button-row">
+    <button id="toTopBtn">Back to Top</button>
+  </div>
+
+</body>
 </html>
